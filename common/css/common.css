@@ -1,0 +1,66 @@
+body {margin-left:0px; margin-right:0px; margin-top: 0px; margin-bottom:0px; }
+body, td {font-size:12px; font-family:"돋움","굴림","Arial";color:#7a7a7a; text-decoration: none; line-height:15pt;}
+a{color:#7a7a7a; text-decoration:none;}
+a:hover{color:#666666; text-decoration:underline;}
+
+
+textarea {font-size:12px; font-family:"돋움","굴림","Arial";color:#7a7a7a; vertical-align:middle; border:1px solid #d4d4d4; padding:5px 5px 5px 5px }
+
+img {border:none}
+
+.clear {clear:both;}
+
+
+/* png image */
+
+
+form { margin: 0px; padding: 0px }
+
+/**폼 관련**/
+ input { color: #363636; 
+ border: 1px solid #d4d4d4;
+ background-color:#ffffff; 
+ font-size: 12px; 
+ color: #000040; 
+ vertical-align:middle; 
+ font-family: "돋움", "굴림", "Arial", "Verdana";
+ background-color:#ffffff; 
+ height:20px;
+ /*z-index:expression(input_nb(this) );*/
+}
+
+/**셀렉트 박스**/
+/*select { behavior : url('/common/css/selectbox.htc');
+         letter-spacing:-1;
+		 height: 20px; border:#b2b4b6;}*/
+
+.login_input_st {border: 0 none #ffff; background:none; padding:0; color:#c4c4c4}
+
+/* radio button border */	
+checkbox{ border:none;} 
+
+radio{ border:none; } 
+
+
+.noline_checkbox{border: 0 none #ffff; height:16px}
+
+.gray_checkbox{border: 0 none #F2F2F2; height:16px; background-color: #F2F2F2}
+
+/* selectbox */
+.select { font-size:11px; font-family:"돋움","굴림","Arial";color:#b2d1dd; vertical-align:middle; background-color: #2b5463; height: 20px; }
+
+
+
+hr {display: none; margin: 0; padding: 0;}
+
+
+ul, ol, li {list-style-type:none; padding:0; margin:0;}
+select {vertical-align: middle; font-size:12px; font-family:"돋움","굴림","Arial"; border: 1px solid #ddd;}
+caption, legend {overflow:hidden;visibility:hidden;position:absolute;width:0;height:0;font-size:0;line-height:0;}
+
+.png24 { tmp:expression(setPng24(this)); }
+.board top01{ background-image: url(../../images/board/line.gif);}
+.board top02{ background-image: url(../../images/board/line.gif);}
+
+
+
